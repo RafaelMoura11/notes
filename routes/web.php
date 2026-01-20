@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 
-Route::get('/main', [MainController::class, 'index']);
+Route::get('/main/{value}', [MainController::class, 'index']);
 
